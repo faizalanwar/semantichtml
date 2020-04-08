@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../../asset/css/style.css">
+</head>
+<body>
+<!-- header -->
+<header>
+  <!-- navigation -->
+<div class="jumbotron">
+       <h1>Cirebon Dev</h1>
+       <p>Kota Penghasil Udang terbesar di Indonesia, sekaligus menjadi kota terbaik di dunia .</p>
+</div>
+ <nav>
+    <ul>
+      <li><a class="logo">Dicoding</a></li>
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../profile.html">Profile</a></li>
+      <li><a href="../../blog.html">Blog</a></li>
+      <li><a href="../../portofolio.html" >Portofolio</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- article -->
+
+    <div class="flex-container-column card">
+        <div class="display">
+            <h1 id="displayNumber">0</h1>
+        </div>
+        <div class="flex-container-row">
+            <div class="tombol">7</div>
+            <div class="tombol">8</div>
+            <div class="tombol">9</div>
+            <div class="tombol negative">+/-</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="tombol">4</div>
+            <div class="tombol">5</div>
+            <div class="tombol">6</div>
+            <div class="tombol operator">-</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="tombol">1</div>
+            <div class="tombol">2</div>
+            <div class="tombol">3</div>
+            <div class="tombol operator">+</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="tombol clear">CE</div>
+            <div class="tombol">0</div>
+            <div class="tombol equals double">=</div>
+        </div>
+    </div>
+    <div class="history card">
+        <h2>Riwayat Perhitungan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Operator</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+ 
+
+</article>
+<!-- footer -->
+<footer class="footer">
+  <span>Copyright zall &copy; 2020 all right reserved</span>
+</footer>
+
+<script src="assets/storage.js"></script>
+<script src="assets/kalkulator.js"></script>
+</body>
+</html>
